@@ -1,3 +1,43 @@
 :root {
-    --css-variable-name: ; //use "font-size" name convention.
+    // COLORS //
+
+        // PRIMARY //
+
+            // TEXT //
+    --clr-pale-violet: hsl(276, 100%, 81%); //sub-heading at the top of the app UI
+
+    --clr-moderate-violet: hsl(276, 55%, 52%); //chat on the left
+
+    --clr-desaturated-dark-violet: hsl(271, 15%, 43%); //chat on the right
+    --clr-grayish-blue: hsl(206, 6%, 79%); //placeholder text
+
+    --clr-very-dark-desaturated-violet: hsl(271, 36%, 24%); //main heading, submit button
+
+    --clr-dark-grayish-violet: hsl(270, 7%, 64%); //paragraph
+
+
+
+            // GRADIENTS //
+            //These two colors are the vibrant background colors you see throughout the design and are applied as a linear gradient:
+
+            --clr-light-magenta: hsl(293, 100%, 63%);
+            --clr-light-violet: hsl(264, 100%, 61%);
+
+        // SECONDARY //
+
+        --clr-white: hsl(0, 0%, 100%);
+
+        --clr-light-grayish-violet: hsl(270, 20%, 96%); //app background
+
+        
+        --clr-very-light-magenta: hsl(289, 100%, 72%); //radio button outline
+
+
+    // TYPOGRAPHY //
+
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-700: 700;
+
+    --ff: 'Rubik', sans-serif;
 }

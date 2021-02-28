@@ -1,3 +1,21 @@
+:root {
+  --clr-pale-violet: hsl(276, 100%, 81%);
+  --clr-moderate-violet: hsl(276, 55%, 52%);
+  --clr-desaturated-dark-violet: hsl(271, 15%, 43%);
+  --clr-grayish-blue: hsl(206, 6%, 79%);
+  --clr-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+  --clr-dark-grayish-violet: hsl(270, 7%, 64%);
+  --clr-light-magenta: hsl(293, 100%, 63%);
+  --clr-light-violet: hsl(264, 100%, 61%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-grayish-violet: hsl(270, 20%, 96%);
+  --clr-very-light-magenta: hsl(289, 100%, 72%);
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  --ff: "Rubik", sans-serif;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -20,9 +38,10 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul,
+ol {
   list-style: none;
+  padding: 0;
 }
 
 /* Set core root defaults */
@@ -39,8 +58,7 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -73,3 +91,8 @@ select {
     scroll-behavior: auto !important;
   }
 }
+body {
+  font-family: var(--ff);
+}
+
+/*# sourceMappingURL=main.css.map */
