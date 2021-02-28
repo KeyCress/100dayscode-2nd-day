@@ -93,6 +93,28 @@ select {
 }
 body {
   font-family: var(--ff);
+  padding: 2rem;
+}
+
+.clr-very-dark-violet {
+  color: var(--clr-very-dark-desaturated-violet);
+}
+
+.clr-dark-grayish-violet {
+  color: var(--clr-dark-grayish-violet);
+}
+
+.txt-al-center {
+  text-align: center;
+}
+
+.header__title {
+  font-weight: var(--font-weight-500);
+  font-size: 2.5rem;
+}
+.header__paragraph {
+  line-height: 1.7rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
