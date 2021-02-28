@@ -1,8 +1,4 @@
 // HEADER-SECTION //
-:root {
-	--brd-radius-top: 2rem;
-	--brd-radius-bottom: 0.4rem;
-}
 
 .header {
 	&__title {
@@ -25,8 +21,9 @@
 	border-radius: 3rem;
 	border: 1rem var(--clr-white) solid;
 	max-width: 400px;
-    background-color: var(--clr-light-grayish-violet);
+	background-color: var(--clr-light-grayish-violet);
 
+	//HEADER PART //
 	&__header {
 		background: linear-gradient(
 			to left,
@@ -45,6 +42,7 @@
 		border-bottom-right-radius: var(--brd-radius-bottom);
 		letter-spacing: 0.07rem;
 		position: relative;
+		margin-bottom: 1rem;
 
 		img {
 			height: 1.8rem;
@@ -57,7 +55,7 @@
 		margin-left: 1rem;
 
 		h4 {
-			font-size: 0.8rem;
+			font-size: 1rem;
 			font-weight: var(--font-weight-500);
 		}
 
@@ -86,4 +84,57 @@
 	position: absolute;
 	bottom: 70%;
 	left: 20%;
+}
+
+// CHAT PART //
+
+.app__chat {
+	font-size: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	.chat-left-side {
+		color: var(--clr-moderate-violet);
+		background-color: #ede4f5;
+		padding: 0.5rem;
+		border-top-left-radius: 1rem;
+		border-top-right-radius: 1rem;
+		border-bottom-left-radius: 0.3rem;
+		border-bottom-right-radius: 1rem;
+
+		margin-left: 1rem;
+		max-width: 25ch;
+		padding-right: 1rem;
+	}
+
+	.chat-right-side {
+		-webkit-box-shadow: 1px 14px 20px -7px rgba(0, 0, 0, 0.09);
+		box-shadow: 1px 14px 20px -7px rgba(0, 0, 0, 0.09);
+
+		color: var(--clr-desaturated-dark-violet);
+		background-color: var(--clr-white);
+		padding: 0.5rem;
+		border-top-left-radius: 1rem;
+		border-top-right-radius: 1rem;
+		border-bottom-left-radius: 1rem;
+		border-bottom-right-radius: 0.3rem;
+
+		align-self: flex-end;
+		max-width: 25ch;
+		margin-right: 1rem;
+	}
+}
+
+.chat-img-container {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1rem;
+	margin-right: 1rem;
+	margin-top: 0.5rem;
+
+	img {
+		height: 3rem;
+		border-radius: 0.8rem;
+	}
 }
