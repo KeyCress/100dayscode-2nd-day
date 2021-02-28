@@ -10,14 +10,20 @@
 			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/66b000eb2d.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		<main>
+		<main class="splitter">
 
-            <!-- WEBSITE HEADER -->
+
+
+			<!-- WEBSITE HEADER -->
 			<header class="header txt-al-center">
-				<h1 class="header__title clr-very-dark-violet ">Simple booking</h1>
-				<p class="header__paragraph clr-dark-grayish-violet ">
+				<h1 class="header__title clr-very-dark-violet">Simple booking</h1>
+				<p class="header__paragraph clr-dark-grayish-violet">
 					Stay in touch with our dog walkers through the chat interface. This
 					makes it easy to discuss arrangements and make bookings. Once the walk
 					has been completed you can rate your walker and book again all through
@@ -26,28 +32,44 @@
 			</header>
 
 
-            <!-- PROFILE SECTION -->
-			<article>
-				<header>
-					<div>
-						<img src="images/avatar.jpg" alt="Profile picture of the walker" />
-						<div>
-							<h4>Samuel Green</h4>
-							<p>Available to Walk</p>
-						</div>
+
+
+			<!-- APP SECTION -->
+			<article class="app">
+
+
+				<!-- PROFILE -->
+				<header class="app__header clr-white">
+                    <i class="fas fa-chevron-left"></i>
+					<img src="images/avatar.jpg" alt="Profile picture of the walker" />
+					<div class="walker-info">
+						<h4>Samuel Green</h4>
+						<p>Available to Walk</p>
 					</div>
+                    <i class="fas fa-ellipsis-v"></i>
+                    <div class="weird-white-cilinder"></div>
 				</header>
 
 
-                <!-- CHAT SECTION -->
+
+				<!-- CHAT -->
 				<div>
 					<div>That sounds great. I’d be happy with that.</div>
 					<div>Could you send over some pictures of your dog, please?</div>
 					<div>
-                        <img src="images/dog-image-1.jpg" alt="Photo of a cute dog with a smile on his face" />
-                        <img src="images/dog-image-2.jpg" alt="Photo of brown dog sitting on the grass" />
-                        <img src="images/dog-image-3.jpg" alt="Photo of brown dog going around holdin a big stick with his mouth" />
-                    </div>
+						<img
+							src="images/dog-image-1.jpg"
+							alt="Photo of a cute dog with a smile on his face"
+						/>
+						<img
+							src="images/dog-image-2.jpg"
+							alt="Photo of brown dog sitting on the grass"
+						/>
+						<img
+							src="images/dog-image-3.jpg"
+							alt="Photo of brown dog going around holdin a big stick with his mouth"
+						/>
+					</div>
 					<div>Here are a few pictures. She’s a happy girl!</div>
 					<div>Can you make it?</div>
 					<div>
@@ -59,17 +81,19 @@
 				</div>
 
 
-                <!-- FOOTER SECTION -->
+
+
+
+				<!-- FOOTER -->
 				<footer>
 					<div>
-                        <p>Type a message…</p>
-                    </div>
+						<p>Type a message…</p>
+					</div>
 				</footer>
 
 
 
 			</article>
-
 		</main>
 	</body>
 </html>

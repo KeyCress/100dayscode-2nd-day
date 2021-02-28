@@ -6,8 +6,24 @@
     color: var(--clr-dark-grayish-violet);
 }
 
+.clr-white {
+    color: var(--clr-white);
+}
+
 
 
 .txt-al-center {
     text-align: center;
+}
+
+
+
+.splitter {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .header {
+        order: 2;
+    }
 }
